@@ -39,13 +39,12 @@ if __name__ == '__main__':
 
     # put the task into queue
     for item in source:
-        time.sleep(0.5)     # 每隔0.5秒发布一个新任务
+        time.sleep(0.5)
         q.put(item)
 
 
     q.join()
     print("-----All the task have been finished-----")
-    # 停止工作线程
     for i in range(num_of_threads):
         q.put(None)
     for t in threads:
