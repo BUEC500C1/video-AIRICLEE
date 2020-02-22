@@ -2,7 +2,7 @@ import tweepy #https://github.com/tweepy/tweepy
 import twitterAPIKey
 
 
-def getTwitsFeed():
+def getTwitsFeed01():
 
 	#Twitter API credentials
 	consumer_key = twitterAPIKey.consumer_key
