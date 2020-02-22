@@ -21,7 +21,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         pip install tweepy
-        pip install PIL
+        pip install Image
+        pip install ImageFont
+        pip install ImageDraw
     - name: Test with pytest
       run: |
         pip install pytest
