@@ -1,8 +1,5 @@
 import tweepy #https://github.com/tweepy/tweepy
-import twitter
-import json
-import os
-import io  
+import os  
 from PIL import Image, ImageFont, ImageDraw
 import twitterAPIKey
 
