@@ -1,4 +1,4 @@
 from getTwitterFeed import *
 
 def test_unitType():
-	assert getTwitsFeed() != None
+	assert getTwitsFeed01() != None
