@@ -5,8 +5,6 @@ import os
 import io  
 from PIL import Image, ImageFont, ImageDraw
 import twitterAPIKey
-import numpy as np
-import sys
 
 
 def getTwitsFeed():
